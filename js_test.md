@@ -20,5 +20,4 @@
  * 1. Using the the 50cm small Box object, show the name of the Farm.
  * 2. Using a foreach loop, iterate through each Length object, and iterate through each Box within the Lengths. Then, display the name and number of stems per Box.
  * 3. Convert the farm object to a JSON string with all the objects associated and display them as a JSON string. e.g. {"name": "Mullo", "country": "Ethiopia", "flowers":[..]}
- * 
- */
+ **/
