@@ -39,7 +39,7 @@ class Length {
 // add box to length
 // print the farm
 
-const farm1 = new Farm("Mullo1", "Ethiopia");
+const farm1 = new Farm("Mullo", "Ethiopia");
 const flower1 = new Flower("Hypericum", "pink");
 
 const length50 = new Length("Fifty");
