@@ -1,7 +1,7 @@
-const user = require("./User");
+const user = require('./User');
 
-async function getUser() {
-    console.log(await user.getUser());
-}
+async function doSomething() {
+    return await user.createUser
+};
 
-getUser();
+doSomething();

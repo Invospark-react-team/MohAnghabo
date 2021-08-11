@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "name": "Mohammed",
+      "email": "moh.anghabo@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "Ali",
+      "email": "Ali@gmail.com",
+      "id": 8
+    }
+  ]
+}
