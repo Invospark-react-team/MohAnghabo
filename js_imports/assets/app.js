@@ -1,7 +1,7 @@
 const user = require('./User');
 
-async function doSomething() {
-    return await user.createUser
+async function addRandomUserToJSON() {
+    return await user.createUser;
 };
 
-doSomething();
+addRandomUserToJSON();

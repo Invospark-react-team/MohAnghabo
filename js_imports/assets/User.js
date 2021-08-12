@@ -1,16 +1,20 @@
 const axios = require('axios').default;
 
-const addUser = async () => {
-    // axios request for newUser (https://randomuser.me/api/)
-    // JSON from newUser -> axios post -> db.json
-
-    // res.data
-
-    const res = await axios
-        .post('http://localhost:9999/users', res.data);
-    return res.data;
+async function getRandomUser() {
+    const response = await axios.get('http://randomuser.me/api/?inc=gender,name,nat');
+    return response.data.results[0];
 }
 
+async function addUserToJSON(user) {
+    const response = await axios.post('http://localhost:9999/users', user);
+    return response.data;
+}
+
+async function addUser() {
+    const getUser = await getRandomUser();
+    const userToJson = await addUserToJSON(getUser);
+    return userToJson;
+}
 module.exports = {
     createUser: addUser()
 }
